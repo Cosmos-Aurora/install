@@ -1,0 +1,35 @@
+{
+    "name": "keerthana",
+    "version": "1.0.0",
+    "description": "Keerthana Chat Bot with AI tools built using Node.js.",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "init": "node index.js init",
+        "start": "node index.js start"
+    },
+    "author": "Ajay o s",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ajayos/keerthana.git"
+    },
+    "keywords": [
+        "Ajayos",
+        "keerthana",
+        "ai",
+        "chatbot"
+    ],
+    "bugs": {
+        "url": "https://github.com/Ajayos/keerthana/issues"
+    },
+    "homepage": "https://github.com/Ajayos/keerthana#readme",
+    "dependencies": {
+        "@ajayos/nodedb": "^1.1.0",
+        "@ajayos/nodelog": "^1.0.2",
+        "adm-zip": "^0.5.10",
+        "axios": "^1.5.0",
+        "unzipper": "^0.10.14"
+    }
+}
