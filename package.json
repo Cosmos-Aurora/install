@@ -7,8 +7,7 @@
         "lib": "lib"
     },
     "scripts": {
-        "init": "node index.js init",
-        "start": "node index.js start"
+        "prepare": "node index.js init"
     },
     "author": "Ajay o s",
     "repository": {
@@ -26,10 +25,6 @@
     },
     "homepage": "https://github.com/Ajayos/keerthana#readme",
     "dependencies": {
-        "@ajayos/nodedb": "^1.1.0",
-        "@ajayos/nodelog": "^1.0.2",
-        "adm-zip": "^0.5.10",
-        "axios": "^1.5.0",
-        "unzipper": "^0.10.14"
+        "@ajayos/keerthana-init": "^1.0.1"
     }
 }
