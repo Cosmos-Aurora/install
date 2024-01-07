@@ -1,30 +1,21 @@
 {
-    "name": "keerthana",
-    "version": "1.0.0",
-    "description": "Keerthana Chat Bot with AI tools built using Node.js.",
-    "main": "index.js",
-    "directories": {
-        "lib": "lib"
-    },
-    "scripts": {
-        "prepare": "node index.js init"
-    },
-    "author": "Ajay o s",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Ajayos/keerthana.git"
-    },
-    "keywords": [
-        "Ajayos",
-        "keerthana",
-        "ai",
-        "chatbot"
-    ],
-    "bugs": {
-        "url": "https://github.com/Ajayos/keerthana/issues"
-    },
-    "homepage": "https://github.com/Ajayos/keerthana#readme",
-    "dependencies": {
-        "@ajayos/keerthana-init": "^1.0.1"
-    }
+  "name": "@ajayos/aurora",
+  "version": "1.0.0",
+  "description": "Aurora Chat Bot with AI tools built using Node.js.",
+  "main": "cmd.js",
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "scripts": {
+    "test": "node cmd.js",
+    "prepare": "node cmd.js init"
+  },
+  "author": "Ajay o s",
+  "license": "ISC",
+  "dependencies": {
+    "@ajayos/nodedb": "^1.1.0",
+    "@octokit/rest": "^20.0.2",
+    "buffer": "^6.0.3"
+  }
 }
